@@ -1,0 +1,33 @@
+// -*- coding: utf-8 -*-//
+
+//@author:Escla (2043432095@qq.com)
+{
+    "interpreterConfig1": [//每当用户新增一个编译器设置，PyCode.Set.exe 会调用PyCodeAPI添加一个编译器json设置
+        {
+            "InterpreterPath": "UNKOWN",//指向路径
+            "Parameter": "UNKOWN",//参数，比如：Gcc -......
+            "Type": "UNKOWN",//编译器类型，如C++编译，python逐行执行
+            "ShowName": "UNKOWN",//下选栏中显示的名称
+            "IsShow": "UNKOWN",//是否在编译器下选栏中显示
+            "RunType": "UNKOWN"//强制运行方式，比如C++使用自动配置模式时候会将此选项改为(1(外部运行)
+        }
+    ],
+    "idleConfig": [
+        {
+            "TitleName": "PyCode",//窗口标题显示名称
+            "ShowVersion": "UNKOWN",//窗口标题显示版本号
+            "TestFunction": "UNKOWN",//测试模式，在设置中连续点击版本启用(需要打开开发者模式)
+            "AutoUpdates": "UNKOWN", //自动更行，默认为True,在每次运行PyCode.exe尝试自动寻找跟新
+            "SafeMode": "UNKOWN",//该模式下，不允许运行不信任文件
+            "AutoStart": "UNKOWN",//是否开机自启动，在《PyCode Studio》中次选项为True,其他版本为False
+            "UilFilePath": "UNKOWN",//使用Uil(UI语言配置文件)文件路径
+            "EasyMode": "UNKOWN",//精简模式(优先级别低于省电模式,当省电模式启动时,次模式必须为False,如果两个都是True,将抛出 TypeError )
+            "PowerSaveMode": "UNKOWN",//省电模式
+        }
+    ],
+    //这下面三个未完善，上面的新版本会加新的
+    "colorConfig": null,//个性化颜色配置方案
+    "personalizationConfig": null,
+    "Debugger": null //开发者模式
+
+}
